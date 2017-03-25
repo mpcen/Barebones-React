@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add webpack webpack-dev-server path
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/Users/hq444d/Library/Android/sdk//tools:/Users/hq444d/Library/Android/sdk//platform-tools/
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  6.3.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "react-starter",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpack: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND www-proxy.boeing.com www-proxy.boeing.com:31060
+      at ClientRequest.onError (/usr/local/Cellar/yarn/0.21.3/libexec/lib/node_modules/yarn/node_modules/tunnel-agent/index.js:176:17)
+      at ClientRequest.g (events.js:286:16)
+      at emitOne (events.js:96:13)
+      at ClientRequest.emit (events.js:188:7)
+      at Socket.socketErrorListener (_http_client.js:308:9)
+      at emitOne (events.js:96:13)
+      at Socket.emit (events.js:188:7)
+      at connectErrorNT (net.js:1015:8)
+      at _combinedTickCallback (internal/process/next_tick.js:74:11)
+      at process._tickCallback (internal/process/next_tick.js:98:9)
